@@ -1,0 +1,171 @@
+/*----------------Home page specific css--------------------------*/
+
+/*jumbo section*/
+
+h1.headerText{
+    
+    color: #fcfbfa;
+    letter-spacing: 2px;
+    position: absolute;
+    font-variant-caps: all-petite-caps;
+    font-family: -webkit-body;
+    top: 11px;
+    left: 38px;
+}
+
+jumbo{
+    position:relative;
+}
+
+div.jumbo img {
+    width: 100%;
+    
+}
+h1.welcome-text{
+    color: rgba(13, 13, 13, 0.9);
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left:18%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2%;
+}
+/*intro statements*/
+#intro{
+    box-shadow: 1px 2px 2px #4d4d3f;
+    background: rgba(26, 26, 25, 0.8);
+    padding: 20px 60px 30px;
+    text-align: center;
+    line-height: 1.3;
+    font-size: 1.2em;
+    color: silver;
+}
+
+#intro p:first-child:first-letter{
+    font-size:35px;
+   }
+
+.bottomBorder {
+    border-bottom: 1px solid silver;
+    padding-bottom: 10px;
+}
+
+
+/*our process section*/
+.withfloat{
+    overflow: auto;
+    margin:3% 2%;
+ 
+}
+
+section#process p {
+    padding: 20px;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 2px;
+}
+
+#process {
+     border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+   -webkit-box-shadow: 0 35px 20px #777;
+   -moz-box-shadow: 0 35px 20px #777;
+   box-shadow: 0 5px 24px #777;
+    background: whitesmoke;
+    padding: 20px;
+    overflow: auto;
+}
+.row {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.col-4{
+    width:30%;
+}
+
+.floatLeft{
+    float:left;
+    margin: 20px 20px;
+}
+
+.clear{
+    clear:both;
+}
+/*featured Designs*/
+section#featuredHomes h3{
+    margin-bottom: 15px;
+}
+
+section#featuredHomes div.col-4 img{
+    width:100%;
+    border: 5px solid #87754e;
+}
+
+section#featuredInterior div.col-4 img{
+    width:100%;
+    border: 5px solid #87754e;
+}
+
+#featuredHomes {
+     border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+   -webkit-box-shadow: 0 35px 20px #777;
+   -moz-box-shadow: 0 35px 20px #777;
+   box-shadow: 0 5px 24px #777;
+    background: #dbd2c5;
+    padding: 20px;
+    
+}
+
+/*featured Interior Designs*/
+section#featuredInterior h3{
+    margin-bottom: 15px;
+}
+
+#featuredInterior {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+     -webkit-box-shadow: 0 35px 20px #777;
+   -moz-box-shadow: 0 35px 20px #777;
+   box-shadow: 0 5px 24px #777;
+    background: #dbd2c5;
+    padding: 20px;
+    overflow: auto;
+}
+
+/*awards section*/
+#awards {
+    overflow: auto;
+    background:whitesmoke;
+    padding:0 40px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+   -webkit-box-shadow: 0 35px 20px #777;
+   -moz-box-shadow: 0 35px 20px #777;
+   box-shadow: 0 5px 24px #777;
+   
+}
+#award h2{
+padding-bottom:10px;
+margin-bottom:10px;
+}
+
+#award{
+border-bottom: 1px solid rgba(255,240,220,.9);
+}
+
+#awards h2{
+    padding-top:20px;
+}
+
+#awards img{
+    padding-top:10px;
+}
+
+section#mainRealtors {
+    padding-bottom: 0px;
+}
+
+/*-------------END Home page specific css-------------------------*/

@@ -1,0 +1,145 @@
+/*form css reset*/
+input[type=text],
+input[type=submit],
+textarea,
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #666;
+    background: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/*end of form css reset*/
+
+div#realtorForm {
+    padding: 20px;
+    margin: 155px auto 25px;
+    max-width: 620px;
+    min-width: 600px;
+    background: #4d4949;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    color: navajowhite;
+}
+
+form > div {
+
+    margin-top: 10px;
+    border-bottom: 1px dashed dimgrey;
+}
+
+form > div:nth-child(14), form > div:nth-child(15), form > div:nth-child(16) {
+    line-height: 1.5;
+    margin-top: 10px;
+    border-bottom: none;
+}
+
+table {
+    width: 100%;
+}
+
+table tr td {
+    padding: 5px;
+    width: 100%;
+}
+
+table tr td:first-child {
+    padding: 4px;
+    width: 30%;
+}
+
+table tr td:nth-child(2) {
+    padding: 4px;
+    width: 70%;
+}
+
+#contact_form {
+    height: auto;
+}
+
+h1, p, label {
+    padding: 2px 6px;
+}
+
+h1, p {
+    padding: 7px 6px;
+}
+
+form div {
+    line-height: 1.5;
+}
+
+div > span {
+    margin-left: 20px;
+}
+
+form#validForm > div > span {
+    margin-left: 0px;
+    color: red;
+}
+
+/*textarea, password,test*/
+input[type=text], input[type=number], input[type=password], textarea {
+    display: block;
+    width: 95%;
+    margin: 7px auto 10px;
+    padding: 3px;
+    background: #EEE;
+    border: 1px solid #FFF;
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-size: 16px;
+    color: #666;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(#FFF, #DDD);
+    background: -moz-linear-gradient(#FFF, #DDD);
+    background: -o-linear-gradient(#FFF, #DDD);
+    background: linear-gradient(#FFF, #DDD);
+    -pie-background: linear-gradient(#FFF, #DDD);
+    -webkit-box-shadow: inset 0px 2px 3px #666, inset 0px -5px 3px #EEE;
+    -moz-box-shadow: inset 0px 2px 3px #666, inset 0px -5px 3px #EEE;
+    box-shadow: inset 0px 2px 3px #666, inset 0px -5px 3px #EEE;
+}
+
+textarea#tellUs {
+
+    height: 100px;
+    overflow: hidden;
+    width: 100%;
+    resize: none;
+
+}
+
+
+/*submit button*/
+input[type=button] {
+    padding: 4px 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: navajowhite;
+    font-size: 18px;
+    font-weight: 400px;
+    background: -webkit-linear-gradient(silver, gray 50%, black 51%);
+    background: -moz-linear-gradient(silver, gray 50%, black 51%);
+    background: -ms-linear-gradient(silver, gray 50%, black 51%);
+    background: -o-linear-gradient(silver, gray 50%, black 51%);
+    background: linear-gradient(silver, gray 50%, black 51%);
+}
+
+input[type=button]:hover {
+    color: blanchedalmond;
+    -webkit-box-shadow: 0px 2px 2px #666, 0px -1px 2px #EEE;
+    -moz-box-shadow: 0px 2px 2px #666, 0px -1px 2px #EEE;
+    box-shadow: 2px 2px 2px #666, 0px -1px 2px #EEE;
+}
+
+nav.table {
+    padding-top: 10px;
+}

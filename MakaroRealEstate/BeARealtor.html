@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/realtor.css" type="text/css">
+    <title>Makaro's Realty</title>
+    <script src="js/beARealtor.js"></script>
+</head>
+<body>
+<div id="header">
+    <nav class="mainNav">
+        <a href="index.html">
+            <img src="img/logo/MLogo3.png" alt="Makaro logo" title="Makaro's Realty" width="185px;"/>
+        </a>
+        <div class="headerWrapper">
+            <div class="social-media">
+                <a href="#" class="fb"><img src="img/Sprites/facebook.png" width="50"></a>
+                <a href="#" class="tweet"><img src="img/Sprites/Tweeter.png" width="50"></a>
+                <a href="#" class="In"><img src="img/Sprites/linkedIn.png" width="50"></a>
+                <a href="#" class="call"><img src="img/Sprites/Call.png" width="50"></a>
+            </div>
+        </div>
+        <div class="navbar-header menu">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contactUs.html">Contact Us</a>
+            <a href="BeARealtor.html">Be a Realtor</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </nav>
+</div>
+<div class="clearfix">&nbsp;</div>
+<div id="realtorForm">
+    <form id="validForm">
+        <h1 class="text-center">Be a Realtor Application Form</h1>
+        <div>
+            <label for="fname">First Name :</label><span id="fname_error">*</span>
+            <input type="text" id="fname" name="fname">
+        </div>
+        <div>
+            <label for="lname">Last Name :</label><span id="lname_error">*</span>
+            <input type="text" id="lname" name="lname" maxlength="100" value="">
+        </div>
+        <div>
+            <label for="add">Address :</label><span id="add_error">*</span>
+            <input type="text" id="add" name="add" maxlength="200" value="">
+        </div>
+        <div>
+            <label for="city">City :</label><span id="city_error">*</span>
+            <input type="text" id="city" name="city" maxlength="20" value="">
+        </div>
+        <div>
+            <label for="province">Province :</label><span id="province_error">*</span>
+            <input type="text" id="province" name="province" maxlength="20" value="">
+        </div>
+        <div>
+            <label for="postalCode">Postal Code :</label><span id="postalCode_error">*</span>
+            <input type="text" id="postalCode" name="postalCode" maxlength="10" value="">
+        </div>
+        <div>
+            <label for="phone">Phone :</label><span id="phone_error">*</span>
+            <input type="number" id="phone" name="phone" maxlength="15" value="">
+        </div>
+        <div>
+            <label for="email">Email address :</label><span id="email_error">*</span>
+            <input type="text" id="email" name="email" maxlength="50" value="">
+        </div>
+        <div>
+            <label>Gender :</label>
+            <div>
+                <span>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+                        </span>
+                <span>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female"><span>Female</span></label>
+                        </span>
+            </div>
+        </div>
+        <div>
+            <label>Highest level of education :</label>
+            <div><span>
+            <input type="radio" id="hs" name="hle" value="High School">
+            <label for="hs"><span>High School</span></label>
+                        </span>
+                <span>
+            <input type="radio" id="cd" name="hle" value="College Degree">
+            <label for="hs"><span>College Degree</span></label>
+                        </span>
+                <span>
+            <input type="radio" id="bachelor" name="hle" value="Bachelor Degree">
+            <label for="hs"><span>Bachelor's Degree</span></label>
+                        </span>
+            </div>
+        </div>
+        <div>
+            <label>What are you doing currently? :</label>
+
+            <div><span><input type="radio" id="Student" name="current" value="Student"><label for="Student"><span>Student</span></label>
+                        </span>
+                <span><input type="radio" id="fullTime" name="current" value="fullTime"><label for="fullTime"><span>Working full-time</span></label>
+                        </span>
+                <span><input type="radio" id="partTime" name="current" value="partTime"><label for="partTime"><span>Working part-time</span></label>
+                        </span><br>
+                <span><input type="radio" id="forFT" name="current" value="forFT"><label for="forFT"><span>Looking for full-time work</span></label>
+                        </span>
+                <span><input type="radio" id="forPT" name="current" value="forPT"><label for="forPT"><span>Looking for part-time work</span></label>
+                        </span>
+            </div>
+        </div>
+        <div>
+            <label>Are you willing to submit a criminal record check at your own expense? :</label>
+            <div>
+                        <span>
+            <input type="radio" id="yForClearance" name="clearance" value="Yes">
+            <label for="yForClearance"><span>Yes</span></label>
+                        </span>
+                <span>
+            <input type="radio" id="noForClearance" name="clearance" value="No">
+            <label for="noForClearance"><span>No</span></label>
+                        </span>
+            </div>
+        </div>
+        <div>
+            <label for="tellUs">Please tell us why you would like to become a realtor? :</label>
+            <textarea id="tellUs" name="tellUs"></textarea>
+        </div>
+        <div>
+            <label>Thank you for taking the time to answer our questions. We will send you an email as soon as we have
+                reviewed your application. </label>
+        </div>
+        <div>
+            <input type="button" onclick="beRealtor()" id="submit" value="Submit Application">
+        </div>
+    </form>
+</div>
+<footer id="footer">
+    <div>
+        <nav class="table">
+            <div class="footer-links">
+                <a href="index.html">Home</a> &nbsp;
+                <a href="gallery.html">Gallery</a>&nbsp;
+                <a href="aboutus.html">About Us</a>&nbsp;
+                <a href="contactUs.html">Contact Us</a>&nbsp;
+                <a href="BeARealtor.html">Be a Realtor</a>&nbsp;
+                <a href="blog.html">Blog</a>
+            </div>
+        </nav>
+        <div class="text-center">
+            <div class="social-media">
+                <a href="#" class="fb"><img src="img/Sprites/facebook.png" width="50"></a>
+                <a href="#" class="tweet"><img src="img/Sprites/Tweeter.png" width="50"></a>
+                <a href="#" class="In"><img src="img/Sprites/linkedIn.png" width="50"></a>
+                <a href="#" class="call"><img src="img/Sprites/Call.png" width="50"></a>
+            </div>
+        </div>
+        <div class="text-center">
+            <h5>&copy Makaro's Realty 2019</h5>
+        </div>
+    </div>
+    <!--end of container-->
+</footer>
+</body>
+</html>

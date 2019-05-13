@@ -1,0 +1,251 @@
+/*---------------- Gallery and Sub Gallery Pages css -----------------*/
+
+/* Author: Kaan Akaydin */
+
+/*
+Preferred screen display width is 1900px. We didn't use responsive design, because
+of this, design of page content can be change
+ */
+
+/* Main Gallery Page CSS */
+
+section.gallery-body {
+    padding: 10px 0px 50px;
+    /*background: url("../img/background-gallery.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    overflow: auto;
+    position: sticky;
+    border-top: 2px solid #4c4c4d;
+    padding-top: 142px;
+}
+
+div.gallery-header {
+    width: 100%;
+    text-align: center;
+}
+
+div.gallery-header > h1, div.gallery-header > h4 {
+    padding: 15px;
+}
+
+div.gallery-boxes {
+    max-width: 1450px;
+    text-align: center;
+    margin: auto;
+    height: auto;
+}
+
+
+div.gallery-box {
+    width: 450px;
+    text-align: center;
+    border: 3px solid #4c4c4d;
+    background: #ededed;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    min-height: 630px;
+}
+
+
+div.gallery-box:after {
+    clear: both;
+}
+
+div.gallery-box:hover {
+    box-shadow: 1px 1px 10px 5px #545454;
+}
+
+
+div.gallery-box-title {
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+}
+
+div.gallery-box-title > h4 {
+    font-weight: bold;
+    color: #4c4c4d;
+}
+
+div.gallery-box-title > hr {
+    height: 2px;
+    width: 75%;
+    margin: auto;
+    margin-top: 15px;
+    background: #a9a9a9;
+}
+
+div.gallery-box-img {
+    width: 100%;
+}
+
+div.gallery-box-content {
+    padding: 20px 10px 20px 10px;
+    width: 80%;
+    text-align: left;
+    line-height: 20px;
+    margin-left: 25px;
+}
+
+div.gallery-box-content > ul > li {
+    color: #4c4c4d;
+    list-style-type: square;
+    list-style-position: inside;
+    text-indent: -23px;
+}
+
+
+/*---------------- Sub Gallery Pages css -----------------*/
+
+section.gallery-pages-body {
+    padding-top: 142px;
+}
+
+div.gallery-pages-header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+div.gallery-pages-header > h1, div.gallery-pages-header > h4 {
+    padding: 20px;
+}
+
+div.gallery-pages-header > hr {
+    height: 2px;
+    width: 25%;
+    margin: auto;
+    background: #a9a9a9;
+}
+
+div.gallery-pages-content {
+    width: 80%;
+    margin: auto;
+}
+
+div.photos > a > img {
+    border: 5px solid #afafaf;
+}
+
+img.imgBigPic {
+    width: 72%;
+    float: left;
+}
+
+img.imgSmallPic {
+    width: 23%;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+img#first-child {
+    margin-top: 0px;
+}
+
+div.home_info {
+    padding: 25px;
+    width: 56%;
+    border: 5px solid #afafaf;
+    background: #ededed;
+    margin-top: 4px;
+    float: left;
+    /*height: 238px;*/
+    min-height: 240px;
+}
+
+div.home-map {
+    width: 36%;
+    /*height: 288px;*/
+    border: 5px solid #afafaf;
+    margin-left: 5px;
+    margin-top: 4px;
+    float: left;
+}
+
+div.home_info > hr, div.agent-info > hr, div.agent-contact > hr {
+    width: 112px;
+    height: 2px;
+    margin-top: 10px;
+    background: #afafaf;
+}
+
+div.agent-info > hr, div.agent-contact > hr {
+    width: 120px;
+    height: 2px;
+    margin-top: 10px;
+    background: #afafaf;
+}
+
+div.agent-contact > hr {
+    width: 75px;
+    height: 2px;
+    margin-top: 10px;
+    background: #afafaf;
+}
+
+div.home_info > ul {
+    margin-top: 10px;
+}
+
+div.home_info > ul > li {
+    line-height: 40px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+div.agent-info {
+    padding: 25px;
+    width: 56%;
+    /*height: 178px;*/
+    border: 5px solid #afafaf;
+    background: #ededed;
+    margin-top: 4px;
+    float: left;
+}
+
+div.agent-info > img {
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 15px;
+    float: left;
+}
+
+div.agent-info > p {
+    margin-top: 0px;
+    line-height: 30px;
+}
+
+div.agent-contact {
+    width: 32%;
+    /*height: 178px;*/
+    border: 5px solid #afafaf;
+    margin-left: 5px;
+    margin-top: 4px;
+    margin-bottom: 25px;
+    float: left;
+    padding: 25px 30px 10px 25px;
+    background: #ededed;
+}
+
+div.agent-contact > p {
+    margin-top: 15px;
+}
+
+p.agent-contact-last {
+    line-height: 25px;
+}
+
+/* Editing Other CSS Rules for Gallery Pages */
+
+#header {
+    /*position: relative;*/
+    border-bottom: 1px solid #4c4c4d;
+}
+
+#footer {
+    padding-top: 20px;
+    clear: both;
+}
+

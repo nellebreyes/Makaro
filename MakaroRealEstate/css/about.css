@@ -1,0 +1,66 @@
+section.about-body {
+    padding-top: 10%;
+}
+
+div.about-content {
+    width: 80%;
+    margin: auto;
+}
+
+div.about-intro > h1, div.about-intro > p, div.about-intro > h3 {
+    margin: 25px 0px 25px 0px;
+}
+
+div.about-us-header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+div.about-us-header > h1, div.about-us-header > h4 {
+    padding: 20px;
+}
+
+div.about-us-header > hr {
+    height: 2px;
+    width: 25%;
+    margin: auto;
+    background: #a9a9a9;
+}
+
+div.team-boxes {
+    float: left;
+    width: 30%;
+    background: #ededed;
+    border: 4px solid #afafaf;
+    padding: 10px;
+    margin: 5px;
+    line-height: 26px;
+    min-height: 393px;
+    margin-bottom: 50px;
+}
+
+div.team-boxes > img {
+    float: left;
+    margin-right: 10px;
+}
+
+div.team-boxes > h2 {
+    margin-right: 10px;
+    float: left;
+}
+
+div.team-boxes > h4 {
+    margin-bottom: 10px;
+}
+
+.about-us-header h2{
+    padding-top:10px;
+}
+
+.about-intro img{
+    padding-top:15px;
+}
+footer#footer {
+    clear: both;
+}
